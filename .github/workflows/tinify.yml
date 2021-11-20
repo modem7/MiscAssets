@@ -2,10 +2,10 @@ name: image
 on:
   pull_request:
     paths:
-      - 'icons/**'
+      - 'Icons/**'
   push:
     paths:
-      - 'icons/**'
+      - 'Icons/**'
 jobs:
   compress:
     runs-on: ubuntu-latest
